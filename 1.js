@@ -9,7 +9,7 @@ var S = {
     if (i !== -1) {
       S.UI.simulate(decodeURI(action).substring(i + 3));
     } else {
-      S.UI.simulate('|#countdown 3||我的萱萱宝贝|生日快乐！|永远开心|永远快乐|永远幸福|超级超级喜欢你！|我们一直一直在一起！|我爱你！|♥♥♥|');
+      S.UI.simulate('|#countdown 3||我的萱萱宝贝|生日快乐！|永远开心|永远快乐|永远幸福|我们|一直|一直|在一起！|我爱你！|♥♥♥|');
     }
 
     S.Drawing.loop(function () {
